@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nataliafonsecaa/intro-javascript-pami-b/issues"
   },
-  "homepage": "https://github.com/nataliafonsecaa/intro-javascript-pami-b#readme"
+  "homepage": "https://github.com/nataliafonsecaa/intro-javascript-pami-b#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

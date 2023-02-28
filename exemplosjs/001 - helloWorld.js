@@ -24,4 +24,13 @@ console.log("Nome: " + nome);
 console.log("A " + nome + " tem " +  idade  + " anos. ");
 console.log('');;
 console.log("------------------------------------");
-console.log(typeof(dengue));
+console.log(typeof(cores_fav));
+console.log(Array.isArray(cores_fav));
+const ehArray = Array.isArray(cores_fav);
+console.log(ehArray === true ? 'É um array' : 'Não é um array');
+if (ehArray === true){
+    console.log('É um array');
+}
+else {
+    console.log('Não é um array');
+}
