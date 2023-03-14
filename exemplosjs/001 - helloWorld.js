@@ -34,3 +34,10 @@ if (ehArray === true){
 else {
     console.log('Não é um array');
 }
+
+// mostrar valor de objeto
+
+console.log('objeto: ');
+console.log(endereco);
+console.log(endereco.bairro);
+console.log(endereco.logadouro + ' ' + endereco.numlog + ' nº ' + endereco.num + ' - ' + endereco.bairro);
