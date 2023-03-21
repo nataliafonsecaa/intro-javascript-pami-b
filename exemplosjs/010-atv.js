@@ -95,17 +95,19 @@ if (opcao == 1) {
 
     if (opcao == 5) {
         console.log('Excluir Tarefa');
-        for(let cont tarefas) {
-            if (tarefas[cont].realizada == true){
+        for(let cont in tarefas) {
+            if (tarefas[cont].realizada == true) {
                 console.log(tarefas[cont].id + '-' + tarefas[cont].tarefa);
             }
-        }
+        
          const excluir = entrada ('Insira o ID da  tarefa a ser excluída:');
          const t_excluir = excluir -1;
          let tempArray = tarefas;
-         tarefas = tempArray.
+         tarefas = tempArray;
     }
-} while (opcao != 0); 
+
+} 
+while (opcao != 0); 
 
 console.log('Programa encerrado!');
 entrada();
